@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Adobo",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "adobo.JPG",
+        "link": "#"
+    },
+    {
+        "title": "Bulalo",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "bulalo.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Kare-Kare",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "Kare-KAre.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Sinigang",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "siginang.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Sisig",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "sizzling-sisig.jpeg",
+        "link": "#"
+    },
+    {
+        "title": "Menudo",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "menudo.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Kilaw",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "Kilaw.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Tinola",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "Chicke Tinola.jpg",
+        "link": "#"
+    },
+    {
+        "title": "Afritada",
+        "description": "It's a comforting and flavorful staple in Filipino cuisine, loved for its rich taste and aromatic appeal.",
+        "image": "afritada.jpg",
+        "link": "#"
+    }
+]

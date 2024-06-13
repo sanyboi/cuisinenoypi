@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Detail - Noypi Cuisine</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <h1 class="logo">Noypi Cuisine</h1>
+        <nav>
+            <div class="menu-icon"></div>
+            <ul class="nav-list">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="main.html#About">About</a></li>
+                <li><a href="main.html#recipes">Recipes</a></li>
+                <li><a href="main.html#contacts">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section class="recipe-detail">
+    <h1 id="recipe-name"></h1>
+    <img id="recipe-img" src="" alt="">
+    <p id="recipe-description"></p>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const recipeName = urlParams.get('name');
+
+        const recipes = [
+            { name: 'Adobo', img: 'adobo.JPG', description: 'Adobo is a popular Filipino dish made with pork or chicken marinated in vinegar, soy sauce, and garlic.' },
+            { name: 'Bulalo', img: 'bulalo.jpg', description: 'Bulalo is a beef shank soup with a rich and savory broth.' },
+            { name: 'Kare-Kare', img: 'Kare-KAre.jpg', description: 'Kare-Kare is a traditional Filipino stew made with oxtail and vegetables in a peanut sauce.' },
+            // Add more recipes with descriptions here
+        ];
+
+        const recipe = recipes.find(r => r.name === recipeName);
+        if (recipe) {
+            document.getElementById('recipe-name').textContent = recipe.name;
+            document.getElementById('recipe-img').src = recipe.img;
+            document.getElementById('recipe-img').alt = recipe.name;
+            document.getElementById('recipe-description').textContent = recipe.description;
+        } else {
+            document.querySelector('.recipe-detail').innerHTML = '<p>Recipe not found.</p>';
+        }
+    });
+  </script>
+</body>
+</html>
